@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/new_tyt_logo_kinda_yellow.png";
+import logo from "../assets/images/new_tyt_logo_kinda_yellow.png";
 import TimeAndDate from "./TimeAndDate.component";
 
 const Header = () => {

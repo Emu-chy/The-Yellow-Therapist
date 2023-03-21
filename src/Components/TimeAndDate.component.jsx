@@ -14,10 +14,10 @@ export const TimeAndDate = () => {
     const currentDate = moment().format("ddd, D MMM, YYYY");
 
     return (
-        <div className="text-center mt-3 me-5" style={{ fontSize: "10px" }}>
-            <small className="">{time.toLocaleTimeString()}</small>
+        <div className="text-center mt-3 me-3" style={{ fontSize: "10px" }}>
+            <small>{time.toLocaleTimeString()}</small>
             <br />
-            <small className="">{currentDate}</small>
+            <small className="border-bottom">{currentDate}</small>
             <br />
             <small>Guest User</small>
         </div>
