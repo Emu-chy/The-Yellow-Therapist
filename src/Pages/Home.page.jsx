@@ -5,6 +5,7 @@ import banner_img from "../assets/images/tytforstudents2.png";
 import payment_img from "../assets/images/FOOTER-02.png";
 import Button from "../Components/Button.component";
 import Footer from "../Components/Footer.component";
+import Animation from "../Components/Animation.component";
 import "./style.css";
 
 const Home = () => {
@@ -18,6 +19,9 @@ const Home = () => {
                 <p>What are you looking for?</p>
             </div>
             <Button />
+
+            <Animation />
+
             <div className="text-center middle-text-2">
                 <p>Secure and easy payment with wide range of checkout choices</p>
             </div>

@@ -65,3 +65,48 @@ button span {
     font-size: 20px;
     font-weight: bold;
 }
+
+
+.animation {
+    margin-top: 100px;
+}
+
+.lottie-img-1 {
+    height: 300px;
+    width: 300px;
+    margin-left: 220px;
+}
+
+.anim-text-contianer-1 h5 {
+    color: #ffc000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.anim-text-contianer-1 p {
+    margin-top: 20px;
+    font-size: 12px;
+    margin-right: 60px;
+
+}
+
+.lottie-img-2 {
+    height: 250px;
+    width: 250px;
+    margin-left: 60px;
+
+}
+
+.anim-text-contianer-2 h5 {
+    color: #ffc000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.anim-text-contianer-2 p {
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: 200px;
+
+}
