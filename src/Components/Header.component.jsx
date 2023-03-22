@@ -4,19 +4,18 @@ import TimeAndDate from "./TimeAndDate.component";
 
 const Header = () => {
     return (
-        <div className="d-flex justify-content-between mx-5 mt-3">
-            <nav className="nav">
+        <div className="mx-5 mt-3">
+            <nav className="navbar fixed-top pt-3 px-5">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
-                        <img src={logo} alt="" />
-                    </a>
-                    <br />
-                    <small style={{ color: "orange", fontSize: "9px" }}>
-                        Because yellow is the happiest color.
-                    </small>
+                    <div className="d-flex flex-column">
+                        <a className="navbar-brand" href="#">
+                            <img src={logo} alt="" />
+                        </a>
+                        <small className="nav-text">Because yellow is the happiest color.</small>
+                    </div>
+                    <TimeAndDate />
                 </div>
             </nav>
-            <TimeAndDate />
         </div>
     );
 };

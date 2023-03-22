@@ -1,0 +1,67 @@
+/* header----style */
+nav {
+    background-color: white;
+}
+
+.nav-text {
+    margin-left: 11px;
+    color: #ffc000;
+    font-size: 11px;
+}
+
+/* button----style */
+button {
+    font-size: 12px;
+}
+
+button span {
+    font-size: 12px;
+
+}
+
+
+/* home-page-----style */
+.banner {
+    margin: 140px 60px 60px 60px;
+}
+
+.middle-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: #5F6368
+}
+
+.middle-text-2 {
+    margin-top: 45px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #5F6368;
+}
+
+.payment-section {
+    margin: 0px 65px 75px 85px;
+}
+
+
+/* footer----style */
+.paragraph-1 {
+    color: #ffc000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.drop-down-link u {
+    color: black;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.drop-down-link p {
+    font-size: 10px;
+}
+
+.drop-down-link h5 {
+    color: #ffc000;
+    font-size: 20px;
+    font-weight: bold;
+}
