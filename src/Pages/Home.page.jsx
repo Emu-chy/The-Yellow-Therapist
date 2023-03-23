@@ -7,6 +7,7 @@ import Button from "../Components/Button.component";
 import Footer from "../Components/Footer.component";
 import Animation from "../Components/Animation.component";
 import "./style.css";
+import BottomSection from "../Components/Bottom-section.component";
 
 const Home = () => {
     return (
@@ -28,7 +29,9 @@ const Home = () => {
             <div className="payment-section">
                 <img src={payment_img} className="img-fluid border-bottom" alt="" />
             </div>
-
+            <div>
+                <BottomSection />
+            </div>
             <div>
                 <Footer />
             </div>

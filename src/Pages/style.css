@@ -44,10 +44,23 @@ button span {
 
 
 /* footer----style */
+.footer-container {
+    margin-left: 100px;
+}
+
 .paragraph-1 {
     color: #ffc000;
     font-size: 20px;
     font-weight: bold;
+}
+
+.drop-down-link {
+    margin-left: 80px;
+}
+
+.drop-down-link li {
+    margin-left: 25px;
+    margin-top: 20px;
 }
 
 .drop-down-link u {
@@ -56,17 +69,58 @@ button span {
     cursor: pointer;
 }
 
-.drop-down-link p {
-    font-size: 10px;
-}
-
 .drop-down-link h5 {
     color: #ffc000;
     font-size: 20px;
     font-weight: bold;
 }
 
+.drop-down-link p {
+    font-size: 11px;
+    margin-right: 95px;
 
+}
+
+.side-button-1 {
+    padding: 1em;
+    height: 50px;
+    position: fixed;
+    right: 2%;
+    top: 65%;
+    border-radius: 69px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 4px grey;
+    cursor: pointer;
+    color: #ffc000;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+}
+
+.side-button-2 {
+    height: 50px;
+    margin-top: 70px;
+    padding: 1em;
+    position: fixed;
+    right: 2%;
+    top: 65%;
+    border-radius: 69px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 4px grey;
+    cursor: pointer;
+    color: #ffc000;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+}
+
+.side-button-2:hover {
+    background-color: #ffc000;
+    color: white;
+}
+
+
+/* animation----style */
 .animation {
     margin-top: 100px;
 }
