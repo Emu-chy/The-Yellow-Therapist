@@ -6,8 +6,9 @@ import payment_img from "../assets/images/FOOTER-02.png";
 import Button from "../Components/Button.component";
 import Footer from "../Components/Footer.component";
 import Animation from "../Components/Animation.component";
-import "./style.css";
 import BottomSection from "../Components/Bottom-section.component";
+import "./style.css";
+import BottomNavbar from "../Components/Bottom-navigation.component";
 
 const Home = () => {
     return (
@@ -20,7 +21,6 @@ const Home = () => {
                 <p>What are you looking for?</p>
             </div>
             <Button />
-
             <Animation />
 
             <div className="text-center middle-text-2">
@@ -29,12 +29,10 @@ const Home = () => {
             <div className="payment-section">
                 <img src={payment_img} className="img-fluid border-bottom" alt="" />
             </div>
-            <div>
-                <BottomSection />
-            </div>
-            <div>
-                <Footer />
-            </div>
+
+            <BottomSection />
+            <BottomNavbar />
+            <Footer />
         </>
     );
 };
